@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <style>
+        body {
+            background-color:white
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        
+        <div class="logo2">
+            <p>&#10095; watch now</p>
+        </div>
+    </nav>
+
+    <div class="registerbox">
+        <img src="https://a0.anyrgb.com/pngimg/1784/296/client-icon-login-avatar-user-light-service-orange-business-icons-circle.png" class="avatar">
+        <h1>register Here</h1>
+        <form>
+            <p style="color:black">Username</p>
+            <input id="U" type="text" placeholder="Enter Username">
+            <div id="d4"></div><br />
+            <p style="color:black">Email address</p>
+            <input id="e" type="text" onkeyup="email()" placeholder=" &#9993; Enter Email Address">
+            <div id="d5"></div><br />
+            <p style="color:black">Phone Namber</p>
+            <input id="t" type="tel" onkeyup="phone()" placeholder="Enter Phone Number">
+            <div id="T"></div><br />
+            <p style="color:black">Password</p>
+            <input id="P" type="password" onkeyup="rules()" onclick="rules()" placeholder="Enter Password">
+            <div id="d6"></div><br />
+            <div id="d7"></div><br />
+            <input type="button" onclick="add()" value="CREATE AN ACCOUNT">
+
+        </form>
+    </div>
+    <script src="regsiter.js"></script>
+</body>
+</html>
